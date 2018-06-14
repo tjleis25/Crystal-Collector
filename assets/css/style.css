@@ -108,3 +108,47 @@ p {
     bottom: 65px; 
     height: 90px; 
 }
+
+/* Tablet Landscape */
+@media screen and (max-width: 980px) {
+    #header { width:75%; }
+    #main-container { width: 100%;}
+    #score-container {
+        float: left;
+        width: 25%;
+    }
+    #counter {
+        float: right;
+        width: 20%;
+    }
+    
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #header { width:75%; }
+    #main-container { width: 100%;}
+    #score-container {
+        float: left;
+        width: 25%;
+    }
+    #counter {
+        float: right;
+        width: 20%;
+    }
+
+    /* Phone Portrait */
+@media screen and (max-width: 640px) {
+    #header { width:75%; }
+    #main-container { width: 100%;}
+    #score-container {
+        float: left;
+        width: 25%;
+    }
+    #counter {
+        float: right;
+        width: 20%;
+    }
+    
+    
+}}
